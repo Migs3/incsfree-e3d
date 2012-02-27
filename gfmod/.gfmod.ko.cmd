@@ -1,0 +1,1 @@
+cmd_/home/migs/android/wpthis/gfmod/gfmod.ko := arm-linux-androideabi-ld -EL -r  -T /home/migs/android/shooter-u-gb-crc-2.6.35-215f227/scripts/module-common.lds --build-id -o /home/migs/android/wpthis/gfmod/gfmod.ko /home/migs/android/wpthis/gfmod/gfmod.o /home/migs/android/wpthis/gfmod/gfmod.mod.o
