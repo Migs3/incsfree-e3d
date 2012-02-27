@@ -1,9 +1,9 @@
 VERSION = 0.8
 EXTRA_CFLAGS  = -Wall -g -D_REENTRANT -DVERSION=\"$(VERSION)\"
-INCDIR	= -I /home/migs/android/android-ndk-r7b/platforms/android-9/arch-arm/usr/include/
-LIBDIR  = /home/migs/android/android-ndk-r7b/platforms/android-9/arch-arm/usr/lib/
+INCDIR	= -I /home/user/android-ndk-r7b/platforms/android-9/arch-arm/usr/include/
+LIBDIR  = /home/user/android-ndk-r7b/platforms/android-9/arch-arm/usr/lib/
 LDFLAGS = -L$(LIBDIR) -static
-BFLAGS  = -B $(LIBDIR) -B /home/migs/android/android-ndk-r7b/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/lib/gcc/arm-linux-androideabi/4.4.3
+BFLAGS  = -B $(LIBDIR) -B /home/user/android-ndk-r7b/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/lib/gcc/arm-linux-androideabi/4.4.3
 RM      = rm -f
 
 TRG = incsfree

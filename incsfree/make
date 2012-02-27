@@ -1,7 +1,7 @@
 #!/bin/sh
 
-make -C /home/migs/android/shooter-u-gb-crc-2.6.35-215f227 M=/home/migs/android/wpthis/gfmod
-make -C /home/migs/android/shooter-u-gb-crc-2.6.35-215f227 M=/home/migs/android/wpthis/gkmem
+make -C /home/user/android/shooter-u-gb-crc-2.6.35-215f227 M=/home/user/android/incsfree-e3d/gfmod
+make -C /home/user/android/shooter-u-gb-crc-2.6.35-215f227 M=/home/user/android/incsfree-e3d/gkmem
 ./embedwpthis.pl
 make clean
 make all
